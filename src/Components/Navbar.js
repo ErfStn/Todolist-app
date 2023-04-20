@@ -11,7 +11,7 @@ const Navbar = ({ unCompletedTodos, selectHandler, status }) => {
 			<div>
 				{" "}
 				<span className="unCompletedTodos">{unCompletedTodos}</span>
-				<h4>are not completed</h4>
+				<h4>{unCompletedTodos === 1 ? "is" : "are"} not completed</h4>
 			</div>
 			{/* <Select onChange={selectHandler} options={options} value={status} className="selectInput" /> */}
 			<select onChange={selectHandler} value={status} className="selectInput">

@@ -6,7 +6,7 @@
 	width: 100%;
 	max-width: 40rem;
 	margin-top: 20px;
-	padding: 16px;
+	padding: 12px;
 	margin: auto;
 }
 
@@ -39,7 +39,6 @@
 .navBar div {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	width: 10rem;
 }
 form {
@@ -56,11 +55,11 @@ form {
 	height: 30px;
 	font-size: 18px;
 	font-weight: bold;
+	margin-right: 4px;
 }
 .selectInput {
 	outline: none;
-	width: 130px;
-	margin-right: 5px;
+	width: 110px;
 	padding: 10px;
 	border-radius: 5px;
 	border: 1px solid blueviolet;
@@ -80,15 +79,19 @@ form {
 }
 
 .todo input {
-	margin-right: 0.5rem;
+	margin-right: 2px;
 	accent-color: blueviolet;
-	margin-top: 3px;
+	margin-top: 4px;
+}
+.todoBtns {
+	display: flex;
 }
 .textTodo {
 	cursor: pointer;
 	font-size: 22px;
 	margin-left: 4px;
 	min-width: 12rem;
+	max-width: 80%;
 	-webkit-tap-highlight-color: transparent;
 }
 
@@ -109,15 +112,17 @@ input:focus {
 }
 
 .btn {
-	padding: 8px 10px;
 	border-radius: 5px;
 	outline: none;
-	border: 1px solid blueviolet;
+	border: 1px solid #8a2be2;
 	margin: 3px;
 	background-color: rgb(238, 231, 245);
 	color: blueviolet;
 	cursor: pointer;
 	font-weight: bold;
+	color: black;
+	width: 26px;
+	height: 26px;
 }
 .remove {
 	border: 1px solid red;
@@ -151,4 +156,8 @@ input:focus {
 	font-weight: bold;
 }
 @media only screen and (max-width: 600px) {
+}
+.icon {
+	width: 14px;
+	height: 14px;
 }
